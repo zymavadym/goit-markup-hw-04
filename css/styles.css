@@ -167,6 +167,8 @@ address {
 .header-mail,
 .header-telnumber {
     color: var(--brand-grey);
+    display: flex;
+    text-align: center;
 }
 
 .header-nav-link:hover,
@@ -595,7 +597,7 @@ address {
 } 
 
 .link-about:hover {
-    /* box-shadow: 0px, 1px, 1px, rgba(0, 0, 0, 0.12), 0px, 4px, 4px, rgba(0, 0, 0, 0.06), 1px, 4px, 6px, rgba(0, 0, 0, 0.16);  */
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16); 
 }
 
 .titles-all {
@@ -621,6 +623,11 @@ address {
     letter-spacing: 0.03em;
     color: var(--brand-grey);
     text-decoration: none;
+    display: block;
+}
+
+.link-about:hover {
+    box-shadow: 0px, 1px, 1px, rgba(0, 0, 0, 0.12), 0px, 4px, 4px, rgba(0, 0, 0, 0.06), 1px, 4px, 6px, rgba(0, 0, 0, 0.16);
 }
 
 .subscribe {
@@ -633,6 +640,7 @@ address {
 
 .footer-social {
     margin-left: 70px;
+    padding-top: 12px;
 }
 
 .footer-social-list {
@@ -674,6 +682,14 @@ address {
 
 .boxes-footer {
     display: flex;
+}
+
+.container-footer {
+    align-items: baseline;
+}
+
+.div-footer {
+    display: block;
 }
 
 
