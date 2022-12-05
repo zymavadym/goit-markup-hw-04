@@ -581,9 +581,6 @@ address {
 
 .all-about { 
     width: 370px;
-    height: 404px;
-    left: 615px;
-    top: 262px;
     background: var(--brand-white);
     border: 1px solid #EEEEEE;
 }
